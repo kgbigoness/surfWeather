@@ -23,7 +23,7 @@ def main():
             [sg.Text('Air Temperature:', font=('Times New Roman', 24)), sg.Text(key='-OUT1-', font=('Times New Roman', 24))],
             [sg.Text('Temperature min / max:', font=('Times New Roman', 24)), sg.Text(key='-OUT2-', font=('Times New Roman', 24))],
             [sg.Text('Conditions:', font=('Times New Roman', 24)), sg.Text(key='-OUT3-', font=('Times New Roman', 24))],
-            [sg.Text('Wind (speed / gust):', font=('Times New Roman', 24)), sg.Text(key='-OUT4-', font=('Times New Roman', 24))],
+            [sg.Text('Wind (speed / direction):', font=('Times New Roman', 24)), sg.Text(key='-OUT4-', font=('Times New Roman', 24))],
             [sg.Text('Tide:', font=('Times New Roman', 24)), sg.Text(key='-OUT5-', font=('Times New Roman', 24))],
             [sg.Button('ENTER', font=('Times New Roman',24)), sg.Button('EXIT', font=('Times New Roman', 24))]]
 
