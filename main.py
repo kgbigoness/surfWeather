@@ -20,7 +20,6 @@ def main():
     #define layout
     layout=[[sg.Text('Choose Location', font=('Times New Roman', 28, 'underline'), justification='left'),
                     sg.Combo(list(buoys_per_locations.keys()), font=('Times New Roman', 28), default_value='', key='-IN-')],
-            [sg.Text('Water Temperature:', font=('Times New Roman', 24)), sg.Text(key='-OUT-', font=('Times New Roman', 24))],
             [sg.Text('Air Temperature:', font=('Times New Roman', 24)), sg.Text(key='-OUT1-', font=('Times New Roman', 24))],
             [sg.Text('Temperature min / max:', font=('Times New Roman', 24)), sg.Text(key='-OUT2-', font=('Times New Roman', 24))],
             [sg.Text('Conditions:', font=('Times New Roman', 24)), sg.Text(key='-OUT3-', font=('Times New Roman', 24))],

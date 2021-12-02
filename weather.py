@@ -40,7 +40,6 @@ def get_tide(lon, lat):
     time2 = str(datetime.fromtimestamp(time2))
     time2_split = time2.split()
 
-    print(time1, time2)
     tides = {}
     tides[state1] = time1_split[1]
     tides[state2] = time2_split[1]
