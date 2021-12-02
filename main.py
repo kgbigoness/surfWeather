@@ -4,9 +4,10 @@ import weather
 import buoy
 import PySimpleGUI as sg
 
+
 def main():
     #set the theme for the screen/window
-    sg.theme('SandyBeach')
+    sg.theme('DefaultNoMoreNagging')
 
     # hard code locations we want for buoy data
     buoys_per_locations = {'Wrightsville Beach':'41110', 
@@ -49,11 +50,9 @@ def main():
 
         # tide conditions
         lat_lon = weather.get_weather(location)['coord']
-        print(lat_lon)
         lon = lat_lon['lon']
         lat = lat_lon['lat']
         tides = weather.get_tide(lon, lat)
-        print(tides)
 
 
         window['-OUT1-'].update(air_temp)
@@ -73,7 +72,5 @@ def main():
     window.close()
 
     
-
-
 if __name__ == "__main__":
     main()

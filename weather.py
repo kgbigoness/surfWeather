@@ -1,11 +1,7 @@
 # Extract weather apis
 
-# api call
-    # api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={API key}
 
 import requests
-from bs4 import BeautifulSoup as bs
-import pandas as pd
 from datetime import datetime
 
 def get_weather(city):
@@ -28,7 +24,7 @@ def get_tide(lon, lat):
     headers = {
         'x-rapidapi-host': "tides.p.rapidapi.com",
         'x-rapidapi-key': "36476bd2a1msh97d8675ec2ef9e9p1b04e1jsn55dc18bff266"
-    }
+        }
 
     response = requests.request("GET", url, headers=headers, params=params)
 
