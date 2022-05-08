@@ -1,4 +1,4 @@
-# Triggerin the entire project
+# Triggers the entire project
 
 import weather
 import buoy
