@@ -1,6 +1,6 @@
 # surfWeather
 
-Project provides a GUI interface in which it is easy to see and compare values such as
+This project provides a GUI interface in which it is easy to see and compare values such as
 
 - weather temperatures
 - wave heights
